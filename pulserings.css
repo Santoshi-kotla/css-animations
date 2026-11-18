@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+#circle{
+    height:850px;
+    width:850px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#circle1{
+    height:30px;
+    width:30px;
+    position: absolute;
+    border-radius:50%;
+    left: 375px;
+    background-color: rgb(255, 162, 0);
+    animation:ring1 0.8s infinite;
+}
+#circle2{
+    height:50px;
+    width:50px;
+    position: absolute;
+    border-radius:50%;
+    border:3px solid black;
+    left: 365px;
+    animation:ring2 0.85s infinite;
+}
+#circle3{
+    height:70px;
+    width:70px;
+    position: absolute;
+    border-radius:50%;
+    left: 355px;
+    border:3px solid black;
+    animation:ring3 0.9s infinite;
+}
+#circle4{
+    height:100px;
+    width:100px;
+    position: absolute;
+    border-radius:50%;
+    left: 340px;
+    border:3px solid black;
+    animation:ring4 0.95s infinite;
+}
+#circle5{
+    height:130px;
+    width:130px;
+    position: absolute;
+    border-radius:50%;
+    left: 325px;
+    border:3px solid black;
+    animation:ring5 1s infinite;
+}
+@keyframes ring1{
+    from{
+        border:3px solid black;
+        transform: rotate(0deg);
+}
+to{
+    border:3px solid orange;
+        transform: rotate(360deg);
+}
+}
+@keyframes ring2{
+    from{
+        border:3px solid black;
+        transform: rotate(0deg);
+}
+to{
+    border:3px solid orange;
+        transform: rotate(360deg);
+}
+}
+@keyframes ring3{
+    from{
+        border:3px solid black;
+        transform: rotate(0deg);
+}
+to{
+    border:3px solid orange;
+        transform: rotate(360deg);
+}
+}
+@keyframes ring4
+{
+    from{
+        border:3px solid black;
+        transform: rotate(0deg);
+}
+to{
+    border:3px solid orange;
+        transform: rotate(360deg);
+}
+}
+@keyframes ring5
+{
+    from{
+        border:3px solid black;
+        transform: rotate(0deg);
+}
+to{
+    border:3px solid orange;
+        transform: rotate(360deg);
+}
+}

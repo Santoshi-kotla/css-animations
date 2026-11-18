@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+#orbit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    height: 600px;
+    
+}
+#core{
+    background-color: rgb(247, 245, 245);
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+}
+#radi1{
+    border:2px solid  rgb(247, 245, 245);
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 1s infinite;
+}
+#radi2{
+    border:2px solid  rgb(247, 245, 245);
+    height:260px;
+    width:260px;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 1.15s infinite;
+}
+#radi3{
+    border:2px solid  rgb(247, 245, 245);
+    height:340px;
+    width:340px;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 0.9s infinite;
+}
+#red{
+    height:20px;
+    width:20px;
+    position: relative;
+    top:23px;
+    border-radius: 50%;
+    background-color: red;
+  
+}
+#green{
+    height:20px;
+    width:20px;
+    position: relative;
+    bottom:10px;
+    left:117px;
+    border-radius: 50%;
+    background-color: green;
+}
+#blue{
+    height:20px;
+    width:20px;
+    position: relative;
+    top:14px;
+    left:67px;
+    border-radius: 50%;
+    background-color: blue;
+}
+@keyframes move{
+    0%{
+        transform: rotate(10deg);
+    }
+    30%{
+        transform: rotate(110deg);
+    }
+    50%{
+        transform: rotate(260deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

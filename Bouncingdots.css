@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+
+#dots{
+    height: 240px;
+    width:240px;
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+#blue{
+    background-color: rgb(49, 11, 201);
+    height: 30px;
+    width:30px;
+    border-radius:50%; 
+    animation:bounce1 0.95s infinite; 
+}
+#red{
+    background-color: rgb(227, 36, 2);
+    height: 30px;
+    width:30px;
+    border-radius:50%; 
+    animation:bounce2 1.2s infinite;
+}
+#orange{
+    background-color: rgb(209, 157, 66);
+    height: 30px;
+    width:30px;
+    border-radius:50%;
+    animation:bounce3 1s infinite;
+}
+@keyframes bounce1{
+    0%{
+        transform: translatey(10px);
+    }
+    50%{
+       transform: translatey(-29px); 
+    }
+}
+@keyframes bounce2{
+    0%{
+        transform: translatey(10px);
+    }
+    50%{
+       transform: translatey(-29px); 
+    }
+}
+@keyframes bounce3{
+    0%{
+        transform: translatey(10px);
+    }
+    50%{
+       transform: translatey(-29px); 
+    }
+}
